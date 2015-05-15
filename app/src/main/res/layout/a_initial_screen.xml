@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.movil.pixelcode.lostwords.Views.Activities.InitialScreen"
+    android:id="@+id/InitialContainer">
+
+    <fragment android:name="com.movil.pixelcode.lostwords.Views.Fragments.LoadingFrag"
+        android:id="@+id/LoadingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/f_loading_frag" />
+
+</FrameLayout>

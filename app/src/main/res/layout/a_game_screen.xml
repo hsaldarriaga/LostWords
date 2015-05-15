@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomapa">
+
+    <Space
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageButton2"
+                android:src="@drawable/place1"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:tag="1"
+                android:background="#00000000"
+                android:onClick="CategorySelected" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageButton3"
+                android:src="@drawable/place2"
+                android:scaleType="fitCenter"
+                android:tag="2"
+                android:background="#00000000"
+                android:layout_weight="1"
+                android:onClick="CategorySelected" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageButton4"
+                android:layout_weight="1"
+                android:src="@drawable/place3"
+                android:scaleType="fitCenter"
+                android:tag="3"
+                android:background="#00000000"
+                android:onClick="CategorySelected" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageButton5"
+                android:layout_weight="1"
+                android:src="@drawable/place4"
+                android:scaleType="fitCenter"
+                android:tag="4"
+                android:background="#00000000"
+                android:onClick="CategorySelected" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageButton6"
+                android:layout_weight="1"
+                android:src="@drawable/place5"
+                android:scaleType="fitCenter"
+                android:tag="5"
+                android:background="#00000000"
+                android:onClick="CategorySelected" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageButton7"
+                android:layout_weight="1"
+                android:src="@drawable/place6"
+                android:scaleType="fitCenter"
+                android:tag="6"
+                android:background="#00000000"
+                android:onClick="CategorySelected" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageButton8"
+                android:layout_weight="1"
+                android:src="@drawable/place7"
+                android:scaleType="fitCenter"
+                android:tag="7"
+                android:background="#00000000"
+                android:onClick="CategorySelected" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ImageButton9"
+                android:layout_weight="1"
+                android:src="@drawable/place8"
+                android:scaleType="fitCenter"
+                android:tag="8"
+                android:background="#00000000"
+                android:onClick="CategorySelected" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

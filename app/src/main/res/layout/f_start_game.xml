@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.movil.pixelcode.lostwords.Views.Fragments.StartGameFrag"
+    android:id="@+id/StartGameContainer">
+
+    <com.movil.pixelcode.lostwords.Views.Animations.StartGameAnimation
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linear">
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="71dp"
+            android:id="@+id/StartButton"
+            android:src="@drawable/pre_button_play"
+            android:onClick="StartGame"
+            android:layout_marginBottom="40dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:contentDescription="@string/contentStartButton" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="71dp"
+            android:id="@+id/HowButton"
+            android:src="@drawable/pre_button_how"
+            android:onClick="HowToPlay"
+            android:layout_marginBottom="50dp"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:contentDescription="@string/ContentHowButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear"
+        android:layout_alignParentStart="false"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/how_logo"
+            android:contentDescription="@string/content_logo"
+            android:cropToPadding="false" />
+    </LinearLayout>
+
+</RelativeLayout>

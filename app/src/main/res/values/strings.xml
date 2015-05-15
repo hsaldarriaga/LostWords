@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LostWords</string>
+    <string name="title_activity_initial_screen">Lost Words</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contentStartButton">Start Button</string>
+    <string name="ContentHowButton">How To Play Button</string>
+    <string name="content_logo">Logo Lost Worlds</string>
+
+</resources>
